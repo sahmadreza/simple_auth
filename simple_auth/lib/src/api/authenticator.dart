@@ -6,7 +6,7 @@ abstract class Authenticator {
   String identifier;
   String authCode;
   bool allowsCancel = true;
-  String title = "Sign in";
+  String title = "";
   Completer<String> _completer = Completer<String>();
   bool hasCompleted = false;
 
